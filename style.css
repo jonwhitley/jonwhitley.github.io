@@ -1,0 +1,184 @@
+a{
+    display: inline-block;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    vertical-align: top;
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+.buttonApple{
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.buttonBN{
+    border-radius: 13px;
+    border: 3px solid #4e6e2f;
+    color:#96af67;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 900;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #00000022;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.buttonBN:hover{
+    background-color: #F1F1F1;
+}
+
+.buttonCoffee{
+    border-radius: 13px;
+    border: 2px solid #633000;
+    color:#000000;
+    padding-left:15px;
+    padding-right: 15px;
+    font-weight: 400;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 16px;
+    background-color: #c7986c;
+    box-shadow: 1px 1px 3px #00000033;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.buttonCoffee:hover{
+    background-color: #e6d3c2;
+}
+
+.buttonHome{
+    margin-left:20px;
+}
+
+.buttonKindle{
+    border-radius: 13px;
+    border: 3px solid #a8a8a8;
+    color:#E47911;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 900;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #00000022;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.buttonKindle:hover{
+    background-color: #F1F1F1;
+}
+
+.buttonRK{
+    border-radius: 13px;
+    border: 3px solid #ac0000;
+    color:#AC0000;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 900;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #00000022;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.buttonRK:hover{
+    background-color: #F5F5F5;
+}
+
+.buttonSteam{
+    border-radius: 13px;
+    border: 2px solid #a8a8a8;
+    color:#ffffff;
+    padding-left:10px;
+    padding-right: 10px;
+    font-weight: 900;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size: 16px;
+    background-color: rgb(55, 68, 88);
+    box-shadow: 1px 1px 1px #00000022;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.buttonSteam:hover{
+    background-color: rgb(105, 129, 165);
+}
+
+.categoryBlock{
+    border-top: 1px solid #00000066;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.categoryBlock:hover{
+    background-color:#F5F5F5;
+}
+
+.contentContainer{
+    margin-left:10vw;
+    margin-right:10vw;
+    width:80vw;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+h4{
+    font-size:10px;
+}
+
+.halfScreenBlock{
+    width: 39vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header{
+    background-color: white;
+    box-shadow: 2px 2px 2px #00000022;
+    width: 100vw;
+}
+
+.hsImg{
+    width:25vw;
+    vertical-align: middle;
+}
+
+.hsPad{
+    padding: 25px;
+    width: auto;
+    height: auto;
+}
+
+html{
+    background-color:white;
+}
+
+.imgThumb{
+    height:16vh;
+    transition: .5s;
+}
+.imgThumb:hover{
+    height:20vh;
+}
+
+p{
+    font-size:14px;
+}

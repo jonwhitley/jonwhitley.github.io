@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simplicity - Jon Whitley</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,900" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html"><h2 class="buttonHome">Jon Whitley</h2></a>
+        </div>
+        <div class="contentContainer">
+            <div class="halfScreenBlock">
+                <div class="hsPad">
+                    <img class="hsImg" src="images/simplicity.jpg">
+                </div>
+            </div>
+            <div class="halfScreenBlock">
+                <div class="hsPad">
+                    <h1>Simplicity</h1>
+                    <h3><i>Left 4 Dead 2</i> Campaign</h3>
+                    <p>Simplicity is a 5-map campaign that I made for Valve's <i>Left 4 Dead 2</i>. It is playable in campaign mode. I came into this a few years after working on Prototype Mk 3, in 
+                        which I made extensive use of custom glowing textures, and in an attempt to work out some issues I was having with misbehaving glow textures I had experimented with using 
+                        unlit textures instead of self-illuminating textures. Going even further back, in an unpublished first edition of Prototype, which led to the confusing naming of "Prototype Mk 3" 
+                        (Mk 2 being a campaign published for the first <i>Left 4 Dead</i>), I had experimented with forcibly spawning extremely large hordes of zombies, like 10 times more zombies than normal. 
+                        It <i>sort of</i> worked, but as soon as you tried to network it the entire thing would crash every time. So I wondered how much computation-budget you could save by basically 
+                        discarding <i>all</i> lighting information and dropping the texture budget down to effective non-existence. <br><br>I came up with this crazy idea to use this hyperminimalist 
+                        aesthetic that would allow me to effectively use just 2 16x16 pixel textures on <i>everything</i>. For comparison's sake, a typical L4D2 texture uses 512x512 pixels, or 
+                        262,144 pixels per texture, as opposed to my 256. By using unlit textures I was able to dispense with the lighting budget as well, and with no lights in the world, all of the players 
+                        and zombies were rendered into living shadows against the bright, white walls. I used a short-cutting fog as well to really pull down the draw distance and make it look like the whole 
+                        world was being sketched into existence as you walked along. Most commentators have said they found it obnoxious. Nevertheless, I'm proud of it, and I think it has an aesthetic 
+                        replicated by nobody else in the <i>Left 4 Dead</i> modding scene. Ultimately, I did scale the zombie spawning back for the sake of balance and playability, just like I did 
+                        with Prototype Mk 2 and 3, but to the best of my memory this campaign has never received a complaint about lag.
+                        <br><br> 
+                    </p>
+                    <h4>Download it free on the Steam Workshop:</h4>
+                    <div>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=759316456" class="buttonSteam">Steam Workshop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
